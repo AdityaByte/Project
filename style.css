@@ -80,7 +80,7 @@ header .lower-header{
 }
 
 .buttons button{
-  background-color: blue;
+  background-color: rgb(15, 115, 173);
   padding: 5px 10px;
   font-size: small;
   border-radius: 3px;
@@ -150,7 +150,7 @@ section .container .content .right-content{
 
 section .container .content .right-content button{
   padding: 10px 20px;
-  background-color: blue;
+  background-color: rgb(15, 115, 173);
   color: white;
   font-size: small;
   border: none;
