@@ -1,0 +1,120 @@
+/* Here we are writing media queries */
+
+@media screen and (max-width: 991px) {
+    .lower-header .nav-icon{
+        display: flex;
+    }
+    
+    .lower-header .nav-toggle{
+        display: block;
+    }
+
+    .lower-header .right-content{
+        display: none;
+    }
+
+    .upper-header .left-content{
+        font-size: smaller;
+    }
+
+    .upper-header .right-content{
+        font-size: smaller;
+    }
+
+    .lower-header .left-content .logo{
+        max-width: 500px;
+        height: 100%;
+    }
+
+    section .image{
+        width: 100vw;
+    }
+
+    section .container .content .left-content H4{
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    section .container .content .left-content span{
+        font-size: small;
+    }
+
+    section .container .content .right-content button{
+        padding: 4px 10px;
+        font-weight: 400;
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* media queries for large mobile */
+
+@media screen and (max-width: 767px) {
+    .lower-header .left-content .logo img{
+        width: 20rem;
+        height: 100%;
+    }
+
+    section .image img{
+        width: 50rem;
+        height: 100%;
+    }
+
+    section .container .content{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+        margin-top: -6vh;
+        width: 90vw;
+    }
+
+    .section3 .left-content input{
+        width: 50%;
+    }
+
+    .section3 .left-content div .Buttons{
+        width: 80%;
+    }
+}
+
+/* media queries for medium mobile */
+
+@media screen and (max-width: 479px){
+    .lower-header .left-content .logo img{
+        width: 15rem;
+        height: 100%;
+    }
+
+    section .image img{
+        width: 55rem;
+        height: 100%;
+    }
+
+    section .container .content{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+        margin-top: -5vh;
+        width: 90vw;
+    }
+
+    .section3 .left-content input{
+        width: 80%;
+    }
+
+    section .container .content{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+        margin-top: -5vh;
+        width: 100vw;
+    }
+
+    .section2 .middle-content .research,.innovation,.discovery{
+        padding: 10%;
+        border-radius: 10px;
+      }
+}
